@@ -11,7 +11,7 @@ public class Book {
 	private @Id @GeneratedValue Long id;
 	private String author;
 	private String title;
-	private String yearPublished;
+	private int yearPublished;
 	
 	Book(){
 		
